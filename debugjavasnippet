@@ -1,0 +1,16 @@
+// * this is code to be debugged
+
+function greeting() {
+  return "Hello World";
+}
+var word = greeting();
+console.log();
+
+// * new code begins here
+
+function greeting() {
+  var sayhello ="Hello World";
+    return sayhello;
+}
+var sayhello = greeting();
+console.log(sayhello);
